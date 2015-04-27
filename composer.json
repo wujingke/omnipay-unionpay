@@ -1,0 +1,21 @@
+{
+    "name": "labs7in0/UnionPay",
+    "description": "UnionPay library for composer",
+    "license": "MIT",
+    "keywords": ["unionpay"],
+    "authors": [
+        {
+            "name": "7IN0SAN9",
+            "email": "me@7in0.me"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Labs7IN0\\UnionPay\\": "src"
+        }
+    }
+}
