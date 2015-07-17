@@ -1,41 +1,51 @@
 Labs7IN0\UnionPay
 ===
 
-[![Build Status](https://travis-ci.org/7IN0-labs/UnionPay.svg?branch=master)](https://travis-ci.org/7IN0-labs/UnionPay)
+**UnionPay driver for the Omnipay PHP payment processing library**
 
-An UnionPay library with psr-4 autoloader.
+[![Build Status](https://travis-ci.org/labs7in0/omnipay-unionpay.svg)](https://travis-ci.org/labs7in0/omnipay-unionpay)
 
-## Features
+## Installation
 
-Support for:
+Omnipay is installed via [Composer](http://getcomposer.org/). To install, simply add it
+to your `composer.json` file:
 
- * UnionPay WEB
- * UnionPay WAP
- * UnionPay Non-redirect
- * UnionPay Back pay
+```json
+{
+    "require": {
+        "labs7in0/omnipay-unionpay": "~2.0"
+    }
+}
+```
 
-## APIs List
-Under developing.
+And run composer to update your dependencies:
+
+    $ curl -s http://getcomposer.org/installer | php
+    $ php composer.phar update
+
+## Basic Usage
+
+The following gateways are provided by this package:
+
+* UnionPay WEB (UnionPay Website Payments)
+* UnionPay WAP (UnionPay Mobile Payments)
+* UnionPay Non-redirect (Payment with binded UnionPay Account)
+* UnionPay Pay (Pay to your somebody actively)
+
+For general usage instructions, please see the main [Omnipay](https://github.com/thephpleague/omnipay)
+repository.
+
+## TODO
+
+* [ ] UnionPay basic class
+* [ ] UnionPay WEB
+* [ ] UnionPay WAP
+* [ ] UnionPay Non-redirect
+* [ ] UnionPay Back pay
 
 ## Donate us
 
- ### PayPal
-
- [me@7in0.me](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ABKLA5Z5MFL6Q)
-
- ### Alipay
-
- ![me@7in0.me](https://tfsimg.alipay.com/images/mobilecodec/T1tJtfXlxlXXXXXXXX)
-
- [me@7in0.me](https://qr.alipay.com/aezw455od9facaie21)
-
- ### Okpay
-
- [OK141453389](https://www.okpay.com/process.html?ok_receiver=OK141453389&ok_item_1_name=Donate&ok_currency=USD&ok_item_1_type=donation)
-
- ### Bitcoin
- 
- [coinbase/kinosang](https://www.coinbase.com/kinosang)
+[Donate us](https://7in0.me/#donate)
 
 ## License
  The MIT License (MIT)
