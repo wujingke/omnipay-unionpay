@@ -1,5 +1,5 @@
 {
-    "name": "wujingk/omnipay-unionpay",
+    "name": "wujingke/omnipay-unionpay",
     "type": "library",
     "description": "UnionPay driver for the Omnipay PHP payment processing library",
     "keywords": [
